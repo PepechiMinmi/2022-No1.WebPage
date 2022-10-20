@@ -1,0 +1,88 @@
+.textinCode{
+  padding: 0.2em 0.5em;
+  width: 250px;
+  margin: 2em 0;
+  border-radius: 10px;
+  background-color:aliceblue;
+}
+
+
+h1{
+  font-size: 32px;
+  padding: 30px;
+}
+
+a{
+    color:#339999;
+    text-decoration: none;
+}
+
+code {
+    font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  }
+
+
+.line{
+  border-left-style:double;
+}
+
+
+.heading{
+  margin: 50px;
+}
+
+.point{
+  margin: 50px;
+
+}
+
+.codeBlock{
+  padding: 0.5em 1em;
+    width: 500px;
+    margin-left:350px;
+    border: double 5px #19E6E6;
+    background-color:white;
+}
+
+
+.block{
+  margin: 90px;
+}
+
+
+
+.page_top_btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-weight: bold;
+  padding: 0.7em;
+  text-align: center;
+  background: #339999;
+  color: #fff;
+  transition: 0.3s0;
+  border-radius: 50px;
+}
+
+
+.page_top_btn:hover {
+  background: (255, 0, 0, 0.8);
+  color: rgb(255, 255, 255, 0.8);
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+u{
+  color: #339999;
+  border: 100px;
+}
+ 
+
+.size{
+  width: 900px;
+  padding-left: 150px;
+}

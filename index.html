@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WebPro No.2 Subjct</title>
+        <link href="styles/style.css" rel="stylesheet">
+        <link href="styles/headerStyle.css" rel="stylesheet">
+        <link href="styles/footerStyle.css" rel="stylesheet">
+        <!--<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>-->
+    </head>
+
+    <body style="background-color:#E3E1EB; text-align:center">
+    <!--style="background-color:#E3E1EB;"-->
+    <!--style="text-align:center" -->
+
+    
+
+        <!--ヘッダーSTART-->
+        <header class="site-header">
+            <div class="example">
+                <a href="#" class="SBpage">SBpage</a>
+            </div>
+        </header>
+        <!--ヘッダーEND-->
+
+
+        <a href="#page_top" class="page_top_btn">Go Top</a>
+
+
+        
+
+        <!--本文START-->
+        <div id="page_top">
+            <h1>HTMLの要素3選</h1>
+        </div>
+
+
+        
+        <div class="contents">
+            <h3>目次</h3>
+            <ul style="list-style: none; padding-left: 0;">
+            <li><a href="#start">初めに</a></li>
+            <li><a href="#element">要素とは</a></li>
+            <li><a href="#selection">おすすめ要素3つ</a></li>
+                <ol style="list-style: none; padding-left: 0;">
+                    <li><a href="#imgele">img要素</a></li>
+                    <li><a href="#iframeele">iframe要素</a></li>
+                    <li><a href="#videoele">video要素</a></li>
+                </ol>
+            <li><a href="#end">終わりに</a></li>
+            </ul>
+            
+        </div>
+
+
+        
+        
+        
+
+        <div id="start" class="heading"><h2>初めに</h2></div>
+            <p>このサイトではおすすめHTML要素3つを紹介しています．</p>
+            <p>紹介する要素は，<a href="https://html.spec.whatwg.org/multipage/#toc-semantics" target="_blank">HTML（WHATWG Living Standard）</a>より4 The elements of HTMLの項目から参考にしています．</p>
+            <p>また今回，３つの要素は全て画像等のメディアを扱うHTML要素を取り上げています．</p>
+
+
+
+
+        <div id="element" class="heading"><h2>要素とは</h2></div>
+            <p>HTMLの要素とは，<a href="https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/HTML_basics#html_%E3%81%A8%E3%81%AF" target="_blank">MDN web docs</a>より</p>
+            <p>「 HTML は一連の 要素 で構成されており，これらの要素がコンテンツのさまざまな部分を囲み，
+            一定の表示や動作をさせることができます．」</p>
+            <p>と記載されており，簡単に「HTMLの中身は『要素』というもので構成されているのだな」という事が分かります．</p>
+            <p>またこの「要素」を，更に分かりやすく図に表すと以下の様になります．</p>
+
+            <img src="images/element.png" width="500px" height="150">
+
+            <p>以上が，「要素」のという物の基本になります．これを踏まえて以下ではおすすめ要素を3つ紹介していきます．</p>
+
+
+
+
+
+
+        <div id="selection" class="heading"><h2>おすすめ要素3つ</h2></div>
+            <div id="imgele" class="block"><li>img要素</li></div>
+                <!--説明-->
+                <p><code class="textinCode">img</code>要素は，画像をあつかう要素の基本と言っても良いのではないでしょうか．</p>
+                <p>この要素は，正式名称「Image」といい，呼び方は<u>「イメージ」</u>，<u>「アイエムジー」</u>
+                    とも呼びます．</p>
+                <p>この要素は，自分のwebページに好きな画像を埋め込む事が出来ます．
+                    画像を埋め込むことでより効果的に内容を伝える事が出来ますね．</p>
+                
+                <p>またいくつか属性が存在し，画像が表示されなかった時の代替えテキストの
+                    alt属性，画像表示サイズに関わるwidth,height属性等があります．</p>
+                
+                <!--マークアップ例（HTMLコード）-->
+                <div class="size">
+                <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWGMwqo" data-user="PepechiMinmi" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/PepechiMinmi/pen/MWGMwqo">
+                    Untitled</a> by K.T (<a href="https://codepen.io/PepechiMinmi">@PepechiMinmi</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            
+
+
+            <div id="iframeele" class="block"><li>iframe要素</li></div>
+                <!--説明-->
+                <p><code class="textinCode">iframe</code>要素は，正式名称「Inlin frame」といい，要素の呼び方は
+                <u>「インラインフレーム」</u>，<u>「アイフレーム」</u>と呼びます．</p>
+                <p>この要素を用いると，自分のwebページ内に小さな窓を表示し，
+                   その中に他のページを埋め込み表示することができます．</p>
+                <p>iframe要素を使った例と言えば，お店のレビューサイトに，
+                    その店と付近が見れるようにマップを埋め込んでいる例が想像しやすいかもしれません．</p>
+                <p>要素の属性については，width,height属性，画像系の要素属性にある
+                    遅延読み込みのloading属性等があります．</p>
+
+                <!--マークアップ例（HTMLコード）-->
+                <div class="size">
+                <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYjVGYZ" data-user="PepechiMinmi" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/PepechiMinmi/pen/zYjVGYZ">
+                    Untitled</a> by K.T (<a href="https://codepen.io/PepechiMinmi">@PepechiMinmi</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+
+
+
+
+            <div id="videoele" class="block"><li>video要素</li></div>
+                <!--説明-->
+                <p>画像，webページ埋め込みから発展して最後はvideo要素を扱って行きます．</p>
+                <p><code class="textinCode">video</code>要素は，正式名称「Video」といい，呼び方は<u>「ビデオ」</u>と呼びます．</p>
+                <p>この要素は3つの中でかなり曲者で，動画形式によってはブラウザで動画が再生されないという事が起こります．</p>
+                <p>ネットサーフィン中にwebページに埋め込まれた動画を再生したいのに，</p>
+                <p><strong>「エラーが発生しました．しばらくしてからもう一度お試しください．」</strong></p>
+                <p>等の表示がされたことはないでしょうか．</p>
+                <p>しかしposter属性を使えば，動画は表示されないけどもワンフレームは表示できる等の処置が出来ます．</p>
+                <p>他にも，おなじみのwidth,height属性，勝手に再生するautplay，再生・停止・音量等を変えられるcontrols属性があります．</p>
+
+                <!--マークアップ例（HTMLコード）-->
+
+                <div class="size">
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jOxjPGr" data-user="PepechiMinmi" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/PepechiMinmi/pen/jOxjPGr">
+                        Untitled</a> by K.T (<a href="https://codepen.io/PepechiMinmi">@PepechiMinmi</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+                
+        
+        
+
+
+    
+    <div id="end" class="heading"><h2>終わりに</h2></div>
+        <p>以上おすすめHTML要素３選いかがでしたでしょうか？</p>
+        <p>これらの要素を使いこなすことで，さらにwebページが良いものにできると思います．</p>
+        <p></p>
+
+
+    <p class="point">これは，日本大学文理学部情報科学科 Webプログラミングの演習課題の一貫で作成されたものである．</p>
+    <!--本文END-->
+
+    
+
+    <!--フッターSTART-->
+    <footer class="site-footer">
+        <div class="Fexample">
+            <p>StuNumber:5420077</p>
+            <p>AuthorName:Kaori Takakura</p>
+            <p>Last Updated :  in 2022</p>
+        </div>
+    </footer>
+    <!--フッターEND-->
+
+    </body>
+</html>
